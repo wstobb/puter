@@ -18,4 +18,6 @@ if [ -s "/build/config/swap_packages.list" ]; then
 	done
 fi
 
+# Ollama
+mkdir -p /usr/local/bin /usr/local/lib
 curl -fsSL https://ollama.com/install.sh | sh || true
