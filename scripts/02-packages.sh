@@ -17,5 +17,3 @@ if [ -s "/build/config/swap_packages.list" ]; then
 		dnf swap -y "$remove" "$install"
 	done
 fi
-
-dnf install -y --releasever=rawhide ollama
