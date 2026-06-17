@@ -17,3 +17,5 @@ if [ -s "/build/config/swap_packages.list" ]; then
 		dnf swap -y "$remove" "$install"
 	done
 fi
+
+curl -fsSL https://ollama.com/install.sh | sh
