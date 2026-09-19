@@ -1,6 +1,7 @@
 chkrootkit
 clamav
 clamav-freshclam
+clamav-update
 clamd
 code
 distrobox
